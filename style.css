@@ -1,0 +1,225 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    animation: fadein 2s;
+}
+
+.content
+{
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: #fafafa;
+}
+
+.content_wout_footer
+{
+    padding-bottom: 120px;
+}
+
+.content_wout_footer .block_about
+{
+    margin: 30px;
+    padding: 30px 200px;
+    background-color: white;
+    box-shadow: 0px 0px 2px rgb(0, 0, 0, 0.5);
+}
+
+.content_wout_footer .contact
+{
+    margin: 30px;
+    padding: 30px 200px;
+    background-color: white;
+    box-shadow: 0px 0px 2px rgb(0, 0, 0, 0.5);
+}
+
+.content_wout_footer .contact p{
+    text-align: center;
+}
+
+.content_wout_footer .block_game
+{
+    margin: 3% 20%;
+    padding: 5%;
+    background-color: white;
+    box-shadow: 0px 0px 2px rgb(0, 0, 0, 0.5);
+    width: auto;
+}
+
+.content_wout_footer .block_gameplay
+{
+    margin: 3% auto;
+    padding: 5%;
+    background-color: white;
+    box-shadow: 0px 0px 2px rgb(0, 0, 0, 0.5);
+    width: 940px;
+}
+
+.content_wout_footer .block_code
+{
+    padding: 0 50px;
+}
+
+.code_link
+{
+    text-align: center;
+    margin: 30px;
+}
+
+.code_link a
+{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 2em;
+    background-color: #8f8f8f;
+}
+
+.block_game a img
+{
+    width: 100%;
+}
+
+.block_game h2
+{
+    text-align: center;
+}
+
+.block_game h2 a
+{
+    text-decoration: none;
+    color: #3d3d3d;
+}
+
+
+.block_game .info
+{
+    width: 50%;
+    outline: black solid 1px;
+    margin: auto;
+    display: inline-grid;
+}
+
+h2
+{
+    text-align: center;
+    text-decoration: none;
+}
+
+.content_wout_footer .block_about h2
+{
+    margin: 0;
+    padding: 0;
+    color: #3d3d3d;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+header
+{
+    display: grid;
+    justify-content: center;
+}
+
+nav::before, nav::after
+{
+    background-color: black;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    width: 50%;
+}
+
+nav::before
+{
+    right: 29px;
+    margin-left: -50%;
+}
+
+nav::after
+{
+    left: 29px;
+    margin-right: -50%;
+}
+
+h1
+{
+    padding-top: 20px;
+    color: #363636;
+}
+
+nav
+{
+    text-align: center;
+    width: 960px;
+    overflow: hidden;
+}
+
+nav ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+nav ul li
+{
+    display: inline-block;
+    margin: 0 15px;
+    padding: 10px;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: #3d3d3d;
+}
+
+nav ul li a:hover
+{
+    color: #3ac9c4;
+}
+
+nav ul hr
+{
+    display: inline-block;
+    height: 2px;
+    border: none;
+    background-color: #3d3d3d;
+    margin-bottom: 5px;
+    width: 50%;
+}
+
+
+
+footer
+{
+    display: grid;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    bottom: 0;
+    height: 120px;
+}
+
+footer p
+{
+    margin-top: auto;
+}
+
+@keyframes fadein 
+{
+    from 
+    {
+        opacity:0;
+    }
+
+    to 
+    {
+        opacity:1;
+    }
+}
