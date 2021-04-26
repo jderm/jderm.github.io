@@ -3,7 +3,6 @@ body
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    animation: fadein 2s;
 }
 
 .content
@@ -21,16 +20,16 @@ body
 
 .content_wout_footer .block_about
 {
-    margin: 30px;
-    padding: 30px 200px;
+    margin: 5% 12%;
+    padding: 5%;
     background-color: white;
     box-shadow: 0px 0px 2px rgb(0, 0, 0, 0.5);
 }
 
 .content_wout_footer .contact
 {
-    margin: 30px;
-    padding: 30px 200px;
+    margin: 5% 12%;
+    padding: 5%;
     background-color: white;
     box-shadow: 0px 0px 2px rgb(0, 0, 0, 0.5);
 }
@@ -108,6 +107,13 @@ h2
     text-decoration: none;
 }
 
+h4
+{
+    text-align: center;
+    text-decoration: none;
+    color: #3d3d3d;
+}
+
 .content_wout_footer .block_about h2
 {
     margin: 0;
@@ -115,6 +121,13 @@ h2
     color: #3d3d3d;
     text-transform: uppercase;
     text-align: center;
+}
+
+h2  a
+{
+    text-align: center;
+    text-decoration: none;
+    color: #3d3d3d;
 }
 
 header
@@ -209,17 +222,4 @@ footer
 footer p
 {
     margin-top: auto;
-}
-
-@keyframes fadein 
-{
-    from 
-    {
-        opacity:0;
-    }
-
-    to 
-    {
-        opacity:1;
-    }
 }
