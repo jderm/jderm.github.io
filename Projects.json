@@ -33,7 +33,7 @@
     },
     {
         "name": "League Randomizer (source)",
-        "link": "https://github.com/jderm/league-randomizer",
+        "link": "https://github.com/jderm/leaguerandomizer_source",
         "local": false,
         "toolsLangs": [
             "React",
@@ -54,7 +54,7 @@
     },
     {
         "name": "Spongebob mocking text generator (C# console app) (source)",
-        "link": "https://github.com/jderm/spongebob-birb-cringe-text-generator",
+        "link": "https://github.com/jderm/spongebirb_console",
         "local": false,
         "toolsLangs": [
             "C#"
@@ -74,7 +74,7 @@
     },
     {
         "name": "Processing platformer example (source)",
-        "link": "https://github.com/jderm/processingPlatformerExample",
+        "link": "https://github.com/jderm/processing_platformer_example",
         "local": false,
         "toolsLangs": [
             "Java",
