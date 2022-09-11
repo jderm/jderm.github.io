@@ -27,8 +27,7 @@
         "toolsLangs": [
             "React",
             "Redux",
-            "JavaScript",
-            "MaterialUI"
+            "JavaScript"
         ],
         "info": "Randomizér postav a linek pro hru League of Legends."
     },
@@ -39,8 +38,7 @@
         "toolsLangs": [
             "React",
             "Redux",
-            "JavaScript",
-            "MaterialUI"
+            "JavaScript"
         ],
         "info": "Zdrojový kód pro League Randomizer."
     },
