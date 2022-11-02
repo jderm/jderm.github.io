@@ -1,96 +1,114 @@
-[
-    {
-        "name": "Tanks",
-        "link": "/projekty/Tanks",
-        "local": true,
-        "toolsLangs": [
-            "Unity",
-            "C#",
-            "PhotonCloud"
-        ],
-        "info": "Online bitva s tanky. (Původně maturitní projekt)"
-    },
-    {
-        "name": "Platformer template",
-        "link": "/projekty/Platformer",
-        "local": true,
-        "toolsLangs": [
-            "Unity",
-            "C#"
-        ],
-        "info": "Šablona pro tvorbu 2D plošinovek s různými prvky. (Původně maturitní projekt)"
-    },
-    {
-        "name": "League Randomizer",
-        "link": "https://jderm.github.io/leaguerandomizer/",
-        "local": false,
-        "toolsLangs": [
-            "React",
-            "Redux",
-            "JavaScript",
-            "MaterialUI"
-        ],
-        "info": "Randomizér postav a linek pro hru League of Legends."
-    },
-    {
-        "name": "League Randomizer (source)",
-        "link": "https://github.com/jderm/leaguerandomizer_source",
-        "local": false,
-        "toolsLangs": [
-            "React",
-            "Redux",
-            "JavaScript",
-            "MaterialUI"
-        ],
-        "info": "Zdrojový kód pro League Randomizer."
-    },
-    {
-        "name": "Spongebob mocking text generator",
-        "link": "https://jderm.github.io/spongebirb/",
-        "local": false,
-        "toolsLangs": [
-            "React",
-            "JavaScript"
-        ],
-        "info": "Modifikátor vlastního textu na ''mocking'' text."
-    },
-    {
-        "name": "Spongebob mocking text generator (C# console app) (source)",
-        "link": "https://github.com/jderm/spongebirb_console",
-        "local": false,
-        "toolsLangs": [
-            "C#"
-        ],
-        "info": "Zdrojový kód pro ''mocking'' text C# konzolové aplikace."
-    },
-    {
-        "name": "''KFC web''",
-        "link": "https://jderm.github.io/KFC-web/",
-        "local": false,
-        "toolsLangs": [
-            "HTML",
-            "CSS",
-            "JavaScript"
-        ],
-        "info": "Ukázková hlavní stránka KFC. (Původně za účelem samostatné domácí práce)"
-    },
-    {
-        "name": "Processing platformer example (source)",
-        "link": "https://github.com/jderm/processing_platformer_example",
-        "local": false,
-        "toolsLangs": [
-            "Java",
-            "Processing"
-        ],
-        "info": "Experimentální projekt platformové skákačky, vytvořené v Processingu s pomocí Javy."
-    },
-    {
-        "name": "LoL champion JSON generator (source)",
-        "link": "https://github.com/jderm/leagueoflegends-chamion-json-generator",
-        "local": false,
-        "toolsLangs": [
-            "Python"
-        ],
-        "info": "JSON generátor postav ze hry League of Legends, použitý spolu s League Randomizer."
-    }
-]
+{
+    "education": [
+        "EDUCA Pardubice - středoškolské",
+        "B2 certifikát z Anglického jazyka"
+    ],
+    "experience": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "C#",
+        "React",
+        "Redux",
+        "OOP",
+        "Unity",
+        "Python",
+        "Java (Processing)"
+    ],
+    "projects": [
+        {
+            "name": "Tanks",
+            "link": "/projekty/Tanks",
+            "local": true,
+            "toolsLangs": [
+                "Unity",
+                "C#",
+                "PhotonCloud"
+            ],
+            "info": "Online bitva s tanky. (Původně maturitní projekt)"
+        },
+        {
+            "name": "Platformer template",
+            "link": "/projekty/Platformer",
+            "local": true,
+            "toolsLangs": [
+                "Unity",
+                "C#"
+            ],
+            "info": "Šablona pro tvorbu 2D plošinovek s různými prvky. (Původně maturitní projekt)"
+        },
+        {
+            "name": "League Randomizer",
+            "link": "https://jderm.github.io/leaguerandomizer/",
+            "local": false,
+            "toolsLangs": [
+                "React",
+                "Redux",
+                "JavaScript",
+                "MaterialUI"
+            ],
+            "info": "Randomizér postav a linek pro hru League of Legends."
+        },
+        {
+            "name": "League Randomizer (source)",
+            "link": "https://github.com/jderm/leaguerandomizer_source",
+            "local": false,
+            "toolsLangs": [
+                "React",
+                "Redux",
+                "JavaScript",
+                "MaterialUI"
+            ],
+            "info": "Zdrojový kód pro League Randomizer."
+        },
+        {
+            "name": "Spongebob mocking text generator",
+            "link": "https://jderm.github.io/spongebirb/",
+            "local": false,
+            "toolsLangs": [
+                "React",
+                "JavaScript"
+            ],
+            "info": "Modifikátor vlastního textu na ''mocking'' text."
+        },
+        {
+            "name": "Spongebob mocking text generator (C# console app) (source)",
+            "link": "https://github.com/jderm/spongebirb_console",
+            "local": false,
+            "toolsLangs": [
+                "C#"
+            ],
+            "info": "Zdrojový kód pro ''mocking'' text C# konzolové aplikace."
+        },
+        {
+            "name": "''KFC web''",
+            "link": "https://jderm.github.io/KFC-web/",
+            "local": false,
+            "toolsLangs": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "info": "Ukázková hlavní stránka KFC. (Původně za účelem samostatné domácí práce)"
+        },
+        {
+            "name": "Processing platformer example (source)",
+            "link": "https://github.com/jderm/processing_platformer_example",
+            "local": false,
+            "toolsLangs": [
+                "Java",
+                "Processing"
+            ],
+            "info": "Experimentální projekt platformové skákačky, vytvořené v Processingu s pomocí Javy."
+        },
+        {
+            "name": "LoL champion JSON generator (source)",
+            "link": "https://github.com/jderm/leagueoflegends-chamion-json-generator",
+            "local": false,
+            "toolsLangs": [
+                "Python"
+            ],
+            "info": "JSON generátor postav ze hry League of Legends, použitý spolu s League Randomizer."
+        }
+    ]
+}
